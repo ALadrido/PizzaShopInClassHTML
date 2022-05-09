@@ -13,6 +13,7 @@
       <input type="text" id="lastName" name="lastName" value="Doe"><br>
       <label for="userAddress">Address:</label>
       <input type="text" id="userAddress" name="userAddress" value="123 Palm St"><br>
+      <button type = "button" onClick = "nameConfirm()">Confirm Credentials</button>
     </div>
     <div class = "contactMethodForm">
       <h3>Please choose Delivery, Pick-Up, or Dine In</h3>
@@ -22,6 +23,7 @@
       <label for="Pick-Up">Pick-Up</label><br>
       <input type="radio" id="Dine-In" name="contactMethod" value="Dine-In">
       <label for="Dine-In">Dine-In</label><br>
+      <button type = "button" onClick = "contactMethodConfirm()">Confirm Method</button>
      </div>
      <div class = "toppingsForm">
       <h3>Please choose your toppings for the pizza</h3>
@@ -41,6 +43,18 @@
       <input type="checkbox" id="checkbox6" name="checkbox6"  value = "Black Olives"><br>
       <label for="checkbox7">Green Peppers (.25)</label>
       <input type="checkbox" id="checkbox7" name="checkbox7"  value = "Green Peppers"><br>
+      <button type = "button" onClick = "toppingsConfirm()">Confirm Toppings</button>
+     </div>
+     <div class = "pizzaSizeForm">
+        <h3>Choose A Pizza Size!</h3>
+        <select name="pizzaSize" id="pizzaSizeSelect">
+            <option value="Large">Large ($11)</option>
+            <option value="Small">Small ($9)</option>
+            <option value="Medium">Medium ($10)</option>
+            <option value="XLarge">Extra Large ($12)</option>
+        </select><br>
+        <button type = "button" onClick = "pizzaSizeConfirm()">Confirm Choice</button>
+        <p>Your Selected Pizza Size is: <input type = "text" id = "favorite" size = "20"></p>
      </div>
   </form>
  </body>
