@@ -5,25 +5,43 @@
  <body>
  <h1 id = "pageTitle">ANDREWS PIZZA SHOP</h1>
   <form id = "pizzaForm">
-      <div class = "nameForm">
-        <h3>Please enter your First & Last Name, Then enter your Address.</address></h3>
-        <label for="firstName">First name:</label>
-        <input type="text" id="firstName" name="firstName" value="John"><br>
-        <label for="lastName">Last name:</label>
-        <input type="text" id="lastName" name="lastName" value="Doe"><br>
-        <label for="userAddress">Address:</label>
-        <input type="text" id="userAddress" name="userAddress" value="123 Palm St"><br>
+    <div class = "nameForm">
+      <h3>Please enter your First & Last Name, Then enter your Address.</address></h3>
+      <label for="firstName">First name:</label>
+      <input type="text" id="firstName" name="firstName" value="John"><br>
+      <label for="lastName">Last name:</label>
+      <input type="text" id="lastName" name="lastName" value="Doe"><br>
+      <label for="userAddress">Address:</label>
+      <input type="text" id="userAddress" name="userAddress" value="123 Palm St"><br>
     </div>
-        <div class = "contactMethodForm">
-            <h3>Please choose Delivery, Pick-Up, or Dine In</h3>
-            <input type="radio" id="Delivery" name="contactMethod" value="Delivery" checked>
-            <label for="Delivery">Delivery</label><br>
-            <input type="radio" id="Pick-Up" name="contactMethod" value="Pick-Up">
-            <label for="Pick-Up">Pick-Up</label><br>
-            <input type="radio" id="Dine-In" name="contactMethod" value="Dine-In">
-            <label for="Dine-In">Dine-In</label><br>
-            <button type = "button" onClick = "contactMethodConfirm()">Confirm Method</button>
-         </div>
+    <div class = "contactMethodForm">
+      <h3>Please choose Delivery, Pick-Up, or Dine In</h3>
+      <input type="radio" id="Delivery" name="contactMethod" value="Delivery" checked>
+      <label for="Delivery">Delivery</label><br>
+      <input type="radio" id="Pick-Up" name="contactMethod" value="Pick-Up">
+      <label for="Pick-Up">Pick-Up</label><br>
+      <input type="radio" id="Dine-In" name="contactMethod" value="Dine-In">
+      <label for="Dine-In">Dine-In</label><br>
+     </div>
+     <div class = "toppingsForm">
+      <h3>Please choose your toppings for the pizza</h3>
+      <label for="checkbox0">Plain Cheese (FREE)</label>
+      <input type="checkbox" id="checkbox0" name="checkbox0" value = "Plain Cheese" checked><br>
+      <label for="checkbox1">Pepperoni (.5)</label>
+      <input type="checkbox" id="checkbox1" name="checkbox1" value = "Pepperoni"><br>
+      <label for="checkbox2">Mushrooms (.25)</label>
+      <input type="checkbox" id="checkbox2" name="checkbox2" value = "Mushrooms"><br>
+      <label for="checkbox3">Pineapple (.25)</label>
+      <input type="checkbox" id="checkbox3" name="checkbox3" value = "Pineapple"><br>
+      <label for="checkbox4">Anchovies (.25)</label>
+      <input type="checkbox" id="checkbox4" name="checkbox4" value = "Anchovies"><br>
+      <label for="checkbox5">Sausage (.5)</label>
+      <input type="checkbox" id="checkbox5" name="checkbox5"  value = "Sausage"><br>
+      <label for="checkbox6">Black Olives (.25)</label>
+      <input type="checkbox" id="checkbox6" name="checkbox6"  value = "Black Olives"><br>
+      <label for="checkbox7">Green Peppers (.25)</label>
+      <input type="checkbox" id="checkbox7" name="checkbox7"  value = "Green Peppers"><br>
+     </div>
   </form>
  </body>
 </html>
