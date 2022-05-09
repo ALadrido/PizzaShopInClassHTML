@@ -14,6 +14,16 @@
         <label for="userAddress">Address:</label>
         <input type="text" id="userAddress" name="userAddress" value="123 Palm St"><br>
     </div>
+        <div class = "contactMethodForm">
+            <h3>Please choose Delivery, Pick-Up, or Dine In</h3>
+            <input type="radio" id="Delivery" name="contactMethod" value="Delivery" checked>
+            <label for="Delivery">Delivery</label><br>
+            <input type="radio" id="Pick-Up" name="contactMethod" value="Pick-Up">
+            <label for="Pick-Up">Pick-Up</label><br>
+            <input type="radio" id="Dine-In" name="contactMethod" value="Dine-In">
+            <label for="Dine-In">Dine-In</label><br>
+            <button type = "button" onClick = "contactMethodConfirm()">Confirm Method</button>
+         </div>
   </form>
  </body>
 </html>
